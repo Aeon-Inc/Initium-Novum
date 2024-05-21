@@ -1,6 +1,6 @@
 # Initium-Novum
 
-Initium-Novum is a new setting for 5th Edition Dungeons and Dragons. This repository will be for adding the additional content from this setting to your copy of Aurora Builder. This repository also works best with the Aurora Legacy Elements.
+Initium-Novum is a new setting for 5th Edition Dungeons and Dragons. This repository will be for adding the additional content from this setting to your copy of [Aurora Builder].(https://aurorabuilder.com/). This repository also works best with the Aurora Legacy Elements.(https://github.com/AuroraLegacy/elements)
 
 # Initium-Novum Information
 
