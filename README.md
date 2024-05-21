@@ -5,7 +5,8 @@ Initium-Novum is a new setting for 5th Edition Dungeons and Dragons. This reposi
 # Initium-Novum Information
 
 Information about the Initium-Novum setting is best found here with the Continentia web portals.
-Disclaimer
+
+# Disclaimer
 
 Initium-Novum is not affiliated with either Wizards of the Coast or Aurora Builder. This is merely a fan-made project to extend your Aurora Elements and play with the rules of this new setting.
 
