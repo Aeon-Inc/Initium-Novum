@@ -1,0 +1,193 @@
+<element>
+    <element name="Lepidoria" type="Race" source="Aeon_Inc" id="ID_Karst_Aeon_Inc_Race_Lepidoria">
+    <description>
+        <p>The Lepidoria are a reclusive people of grand ambitions whose lives are often spent in pursuit of perfection of the mind and self. Anywhere the unknown, strange, or uncommon can be found, they will situate themselves until all mysteries have been unraveled. Much like the fair elves, they have a deep love of nature and magic, art and artistry, music and poetry.
+        However, their dark past of being captured and bred for the amusement of others has led the colonies to disappear from the eyes of the world.</p>
+        <p class="indent">Most Lepidoria who grow up within the main society pay little heed to the goings on of the world: gods and wars are trivial, and the fall and rise of kingdoms are but footnotes in history. There is only one pursuit that of understanding all things the universe holds. This can make Lepidora who venture outside their society inquisitive, curious, and thoughtful people, though a subtle stubbornness and deep- rooted self-righteousness can often be found little can sway them to extreme emotions, and most situations good or bad can be regarded as gateways to knowledge.
+        Lepidoria who have chosen to retain the old ways in nature are often strange to meet after running into the more common academics. Kind-hearted, sweet, and mostly of good cheer, they seem to always be doing their most to help those around them. Still, they are often very fearful of strangers, and distrust those who come from societies that exploit nature.</p>
+        <p class="indent">Lepidoria are more naturally aware of magical forces in the world, and often live in villages -or make their own- close to highly magical areas. This sense lets them naturally avoid magical traps, or identify magical items from a hoard with ease.</p>
+        <h4>Appearance</h4>
+        <p>Lepidoria are a humanoid race that resemble moths and butterflies with their long and thin bodies, antennae, and large wings. Your hair color matches your wing color and any patterns in your wings may appear on the skin of your arms and legs. However, if you can manage to hide all your abnormal traits you will blend into a human population with ease.</p>
+        <h4>Lepidoria Names</h4>
+        <p>The Lepidoria place no weight upon names, and their society has done away with any special distinctions between male and female in most fields. Names are freely used between either gender, though they are often named after the coloration of their wings, or a creature that has similar patterns. They have no family names, as most children are raised communally to foster greater connection.</p>
+        <p class="indent"><strong><em>A Lepidoria of either gender may have one of these names:</em></strong> Luna, Atlas, Tiger, Hawk, Sulpher, Azure, or Monarch.</p>
+        <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence, Wisdom, or Charisma increases by 2, and your Dexterity increases by 1.</p>
+        <p class="indent"><strong><em>Age.</em></strong> Lepidoria adults once their wings are fully grown, and live into their mid-forties on average. The oldest live until their late fifties.</p>
+        <p class="indent"><strong><em>Alignment.</em></strong> Lepdoria vary greatly in alignment, and do not tend towards one or the other.</p>
+        <p class="indent"><strong><em>Size.</em></strong> Lepidoria range from 5 to 6 feet tall on average, have slender and lithe builds, and weigh much less than humanoids of similar size at 60 to 80 pounds. Your size is Medium.</p>
+        <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+        <p class="indent"><strong><em>Wings.</em></strong> Your wings are made of magic and light, when you hit half-heath they break. You have to remake them at a long rest in the night for Moth and day for Butterfly. You have a flying speed equal to your walking speed, which can't be used to ascend. When you end one of your turns flying in the air, you descend by 5 feet.</p>
+        <p class="indent"><strong><em>Ride the Wind.</em></strong> As an action, you can beat your wings and ascend up to 30 feet. You can't use this action again until you touch the ground. You can't use your wings if you are unable to move, and you can't Ride the Wind if you are wearing Medium or heavy armor. While flying, you cannot use any weapon that has the heavy property.</p>
+        <p class="indent"><strong><em>Magical Attunement.</em></strong> You know the prestidigitation cantrip. When you reach 3rd level, you can cast the detect magic spell as a ritual.</p>
+        <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.</p>
+    </description>
+    <sheet display="false" />
+   
+   <setters>
+			<set name="names" type="custom">Luna, Atlas, Tiger, Hawk, Sulpher, Azure, Monarch</set>
+			<set name="names-format">{{custom}}</set>
+		</setters>
+		<sheet display="false" />
+    <rules>
+        <stat name="Dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Lepidoria)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+       	<select type="Racial Trait" name="Ability Score Increase" supports="LepidoriaASI" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Lepidoria)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        <stat name="innate speed" value="30" bonus="base"/>
+		<stat name="innate speed:fly" value="30" bonus="base" />
+		<grant type="Size" id="ID_SIZE_MEDIUM" />
+        <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		<select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		<select type="Language" name="Language, Lepidoria" supports="Standard||Exotic" />
+        <grant type="Wings" id="ID_KARST_AEON_INC_RACIAL_TRAIT_WINGS" />
+        <grant type="Ride the Wind" id="ID_KARST_AEON_INC_RACIAL_TRAIT_RIDE_THE_WIND" />
+        <grant type="Magical Attunement" id="ID_KARST_AEON_INC_RACIAL_TRAIT_MAGICAL_ATTUNEMENT" />
+		<select type="Sub Race" name="Lepidoria Subrace" supports="Lepidoria" optional="false"/>
+	</rules>
+    </element>
+    <element name="Charisma" type="Racial Trait" source="Aeon_Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_CHA">
+    <compendium display="false" />
+    <supports>LepidoriaASI</supports>
+        <description>
+            <p>Your Charisma score increases by 2.</p>
+        </description>
+        <rules>
+            <stat name="charisma" value="2" />
+        </rules>
+    </element>
+    <element name="Intelligence" type="Racial Trait" source="Aeon_Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_INT">
+    <compendium display="false" />
+    <supports>LepidoriaASI</supports>
+        <description>
+            <p>Your Intelligence score increases by 2.</p>
+        </description>
+        <rules>
+            <stat name="Intelligence" value="2" />
+        </rules>
+    </element>
+    <element name="Wisdom" type="Racial Trait" source="Aeon_Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_WIS">
+    <compendium display="false" />
+    <supports>LepidoriaASI</supports>
+        <description>
+            <p>Your Wisdom score increases by 2.</p>
+        </description>
+        <rules>
+            <stat name="Wisdom" value="2" />
+        </rules>
+    </element>
+    <element name="Wings" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_WINGS">
+		<description>
+			<p>Your wings are made of magic and light, when you hit half-heath they break. You have to remake them at a long rest in the night for Moth and day for Butterfly. You have a flying speed equal to your walking speed, which can't be used to ascend. When you end one of your turns flying in the air, you descend by 5 feet.</p>
+		</description>
+		<sheet>
+			<description>Your wings are made of magic and light, when you hit half-heath they break. You have to remake them at a long rest in the night for Moth and day for Butterfly. You have a flying speed equal to your walking speed, which can't be used to ascend. When you end one of your turns flying in the air, you descend by 5 feet..</description>
+		</sheet>
+	</element>
+    <element name="Ride the Wind" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_RIDE_THE_WIND">
+		<description>
+			<p>As an action, you can beat your wings and ascend up to 30 feet. You can't use this action again until you touch the ground. You can't use your wings if you are unable to move, and you can't Ride the Wind if you are wearing Medium or heavy armor. While flying, you cannot use any weapon that has the heavy property.</p>
+		</description>
+		<sheet>
+			<description>As an action, you can beat your wings and ascend up to 30 feet. You can't use this action again until you touch the ground. You can't use your wings if you are unable to move, and you can't Ride the Wind if you are wearing Medium or heavy armor. While flying, you cannot use any weapon that has the heavy property.</description>
+		</sheet>
+	</element>
+    <element name="Magical Attunement" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_MAGICAL_ATTUNEMENT">
+		<description>
+			<p>You know the prestidigitation cantrip. When you reach 3rd level, you can cast the detect magic spell as a ritual.</p>
+		</description>
+		<sheet>
+			<description>You know the prestidigitation cantrip.</description>
+            <description level="3">You can cast the detect magic spell as a ritual.</description>
+        </sheet>
+	<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="3" />
+	</rules>
+    </element>
+
+<!-- Grants Lepidoria Subraces -->
+	<element name="Lepidoria Subrace" type="Grants" source="Aeon_Inc" id="ID_KARST_AEON_INC_GRANTS_Lepidoria_SUBRACE" />
+
+	<!-- Moth: -->
+<element name="Moth" type="Sub Race" source="Aeon_Inc" id="ID_KARST_AEON_INC_SUBRACE_MOTH">
+		<supports>Lepidoria</supports>
+		<description>
+			<p>As a moth your colors and patterns are numerious like the stars in the sky.</p>
+			<p class="indent"><b><i>Natural Camouflage</i></b> You have proficiency in the Stealth skill.</p>
+			<p class="indent"><b><i>Darkness Dweller</i></b> Your natural biology grants you superior vision in darkness, though your eyes can get easily overwhelmed by light. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. This trait's range is reduced to 0 feet while you are in bright light.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_NATURAL_CAMOUFLAGE" />
+			<grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_DARKNESS_DWELLER" />
+            <grant type="Grants" id="ID_KARST_AEON_INC_GRANTS_Lepidoria_SUBRACE" />
+		</rules>
+	</element>
+
+	<element name="Natural Camouflage" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_NATURAL_CAMOUFLAGE">
+		<description>
+			<p>You have proficiency in the Stealth skill.</p>
+		</description>
+		<sheet>
+			<description>You have proficiency in the Stealth skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Darkness Dweller" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_DARKNESS_DWELLER">
+		<description>
+			<p>Your natural biology grants you superior vision in darkness, though your eyes can get easily overwhelmed by light. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. This trait's range is reduced to 0 feet while you are in bright light.</p>
+		</description>
+		<sheet>
+			<description>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. This trait's range is reduced to 0 feet while you are in bright light.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />	
+		</rules>
+	</element>
+
+<!-- Butterfly: -->
+	<element name="Butterfly" type="Sub Race" source="Aeon_Inc" id="ID_KARST_AEON_INC_SUBRACE_BUTTERFLY">
+		<supports>Lepidoria</supports>
+		<description>
+			<p>As a butterfly your colors come in as many patterns and colors as the flowers under the sun.</p>
+			<p class="indent"><b><i>Flash of Color</i></b> As an action, you can expand your wings to their fullest extent, causing fear or fascination in creatures nearby. Any creature within 15 feet of you that can see you must make a Wisdom saving throw or become Charmed or Frightened (you choose when you activate this ability) of you for 1 minute. You must use your action on subsequent turns to keep your wings fully extended, or the effect ends early. A creature can repeat this save at the end of each of their turns.</p>
+            <p class="indent">The DC for this ability is equal to 8 + your Intelligence, Wisdom, or Charisma modifier + your Proficiency bonus.</p>
+			<p class="indent"><b><i>Glamorous</i></b> You gain proficiency in your choice of either the Persuasion or Deception skill.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_FLASH_OF_COLOR" />
+			<grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_GLAMOROUS" />
+            <grant type="Grants" id="ID_KARST_AEON_INC_GRANTS_Lepidoria_SUBRACE" />
+		</rules>
+	</element>
+
+	<element name="Flash of Color" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_FLASH_OF_COLOR">
+		<description>
+			<p>As an action, you can expand your wings to their fullest extent, causing fear or fascination in creatures nearby. Any creature within 15 feet of you that can see you must make a Wisdom saving throw or become Charmed or Frightened (you choose when you activate this ability) of you for 1 minute. You must use your action on subsequent turns to keep your wings fully extended, or the effect ends early. A creature can repeat this save at the end of each of their turns.</p>
+            <p class="indent">The DC for this ability is equal to 8 + your Intelligence, Wisdom, or Charisma modifier + your Proficiency bonus.</p>
+		</description>
+		<sheet>
+			<description>
+            <p>As an action, you can expand your wings to their fullest extent, causing fear or fascination in creatures nearby. Any creature within 15 feet of you that can see you must make a Wisdom saving throw or become Charmed or Frightened (you choose when you activate this ability) of you for 1 minute. You must use your action on subsequent turns to keep your wings fully extended, or the effect ends early. A creature can repeat this save at the end of each of their turns.</p>
+            <p class="indent">The DC for this ability is equal to 8 + your Intelligence, Wisdom, or Charisma modifier + your Proficiency bonus.</p>
+            </description>
+		</sheet>
+	</element>
+
+<element name="Glamorous" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_GLAMOROUS">
+		<description>
+			<p>You gain proficiency in your choice of either Persuasion or Deception.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in your choice of either Persuasion or Deception.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Glamorous (Lepidoria)" supports="ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_DECEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency, Glamorous" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+</element>
