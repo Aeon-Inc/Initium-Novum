@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Initium-Novum</name>
+		<description>The content for Initium-Novum sources.</description>
+		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+		<update version="0.0.1">
+			<file name="Initium-Novum.index" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum.index" />
+		</update>
+	</info>
+ <files>
+   <!-- Necessities -->
+   <!-- Races -->
+ </files>
+</index>
