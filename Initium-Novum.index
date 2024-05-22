@@ -11,5 +11,7 @@
  <files>
    <!-- Necessities -->
    <!-- Races -->
+	<Initium-Novum-Race-Axolotl.xml url="https://github.com/Aeon-Inc/Initium-Novum/blob/main/Initium-Novum-Race-Axolotl.xml" />
+	<Initium-Novum-Race-Lepidoria.xml url="https://github.com/Aeon-Inc/Initium-Novum/blob/main/Initium-Novum-Race-Lepidoria.xml" />
  </files>
 </index>
