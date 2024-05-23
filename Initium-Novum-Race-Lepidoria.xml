@@ -1,5 +1,14 @@
 <element>
-    <element name="Lepidoria" type="Race" source="Aeon_Inc" id="ID_Karst_Aeon_Inc_Race_Lepidoria">
+    <info>
+		<name>Lepidoria</name>
+		 <update version="0.0.5"> 
+	    	<description>The Lepidoria Race from Initium-Novum.</description>
+		    <author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+			<file name="Initium-Novum-Race-Lepidoria.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Lepidoria.xml" />
+		</update>
+	</info>
+
+<element name="Lepidoria" type="Race" source="Aeon_Inc" id="ID_Karst_Aeon_Inc_Race_Lepidoria">
     <description>
         <p>The Lepidoria are a reclusive people of grand ambitions whose lives are often spent in pursuit of perfection of the mind and self. Anywhere the unknown, strange, or uncommon can be found, they will situate themselves until all mysteries have been unraveled. Much like the fair elves, they have a deep love of nature and magic, art and artistry, music and poetry.
         However, their dark past of being captured and bred for the amusement of others has led the colonies to disappear from the eyes of the world.</p>
