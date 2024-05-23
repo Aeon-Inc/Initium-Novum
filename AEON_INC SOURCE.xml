@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="continentia-cruel-war-source.xml" url="https://raw.githubusercontent.com/pkducklett/Continentia/main/continentia-cruel-war-source.xml" />
+		</update>
+	</info>
+	<element name="Aeon_Inc" type="Source" source="Aeon_Inc" id="ID_KARST_AEON_INC_SOURCE_AEON_INC">
+		<description>
+			<!-- The content for Continentia sources. -->
+		</description>
+		<setters>
+			<set name="abbreviation">CONT</set>
+			<set name="url">https://github.com/Aeon-Inc/Initium-Novum</set>
+			<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
