@@ -1,4 +1,12 @@
 <element>
+  <info>
+		<name>Axolotl</name>
+		<description>The Axolotl race for Initium-Novum.</description>
+		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+		<update version="0.0.1">
+			<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Axolotl.xml" />
+		</update>
+	</info>
 <element name="Axolotl" type="Race" source="Aeon_Inc" id="ID_Karst_Aeon_Inc_Race_Axolotl">
     <description>
         <p>Axolotl typically dwell in or close to large sources of fresh water, such as lakes or rivers, where they form intricate communities with not only their own kind, but with many other beings. Originating from the Feywild themselves, Axolotl are fond of other fey creatures, and will often form meaningful relationships with Elves, Firbolgs, and Gnomes among other creatures, as well as many forest-dwelling animals such birds, deer, and small mammals.</p>
