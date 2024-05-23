@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="AEON_INC SOURCE.xml" url="https://raw.githubusercontent.com/pkducklett/Continentia/main/continentia-cruel-war-source.xml" />
+			<file name="AEON_INC SOURCE.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/AEON_INC%20SOURCE.xml" />
 		</update>
 	</info>
 	<element name="Aeon_Inc" type="Source" source="Aeon_Inc" id="ID_KARST_AEON_INC_SOURCE_AEON_INC">
