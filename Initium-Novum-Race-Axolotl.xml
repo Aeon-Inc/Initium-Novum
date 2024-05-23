@@ -1,9 +1,9 @@
 <element>
   <info>
 		<name>Axolotl</name>
-		<description>The Axolotl race for Initium-Novum.</description>
-		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
 		<update version="0.0.1">
+	  	<description>The Axolotl race for Initium-Novum.</description>
+		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
 			<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Axolotl.xml" />
 		</update>
 	</info>
