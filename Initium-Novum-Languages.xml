@@ -5,7 +5,7 @@
 		<update version="0.0.4">
             <description>Languages spoken in Initium-Novum.</description>
             <author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
-		<file name="continentia-languages.xml" url="https://raw.githubusercontent.com/pkducklett/Continentia/main/continentia-languages.xml" />
+		<file name="Initium-Novum-Languages.xml" url="https://raw.githubusercontent.com/pkducklett/Continentia/main/continentia-languages.xml" />
 		</update>
 	</info>
 
