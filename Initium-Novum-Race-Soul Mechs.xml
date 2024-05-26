@@ -4,7 +4,7 @@
 		 <update version="0.0.5"> 
 	    	<description>The Soul Mech Race from Initium-Novum.</description>
 		    <author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
-			<file name="Initium-Novum-Race-Soul Mechs.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Soul%20Mechs.xml" />
+			<file name="Initium-Novum-Race-Soul-Mechs.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Soul%20Mechs.xml" />
 		</update>
 	</info>
 <element>
