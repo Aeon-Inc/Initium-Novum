@@ -10,7 +10,7 @@
 			<!-- The content for Initium-Novum sources. -->
 		</description>
 		<setters>
-			
+			<set name="abbreviation">AEON</set>
 			<set name="url">https://github.com/Aeon-Inc/Initium-Novum</set>
 			<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
 			<set name="homebrew">true</set>
