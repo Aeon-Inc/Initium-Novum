@@ -7,8 +7,7 @@
 			<file name="Initium-Novum-Race-Lepidoria.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Lepidoria.xml" />
 		</update>
 	</info>
-
-<element name="Lepidoria" type="Race" source="Aeon_Inc" id="ID_Karst_Aeon_Inc_Race_Lepidoria">
+	<element name="Lepidoria" type="Race" source="Aeon Inc" id="ID_Karst_Aeon_Inc_Race_Lepidoria">
     <description>
         <p>The Lepidoria are a reclusive people of grand ambitions whose lives are often spent in pursuit of perfection of the mind and self. Anywhere the unknown, strange, or uncommon can be found, they will situate themselves until all mysteries have been unraveled. Much like the fair elves, they have a deep love of nature and magic, art and artistry, music and poetry.
         However, their dark past of being captured and bred for the amusement of others has led the colonies to disappear from the eyes of the world.</p>
@@ -54,7 +53,7 @@
 		<select type="Sub Race" name="Lepidoria Subrace" supports="Lepidoria" optional="false"/>
 	</rules>
     </element>
-    <element name="Charisma" type="Racial Trait" source="Aeon_Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_CHA">
+    <element name="Charisma" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_CHA">
     <compendium display="false" />
     <supports>LepidoriaASI</supports>
         <description>
@@ -64,7 +63,7 @@
             <stat name="charisma" value="2" />
         </rules>
     </element>
-    <element name="Intelligence" type="Racial Trait" source="Aeon_Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_INT">
+    <element name="Intelligence" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_INT">
     <compendium display="false" />
     <supports>LepidoriaASI</supports>
         <description>
@@ -74,7 +73,7 @@
             <stat name="Intelligence" value="2" />
         </rules>
     </element>
-    <element name="Wisdom" type="Racial Trait" source="Aeon_Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_WIS">
+    <element name="Wisdom" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_Lepidoria_WIS">
     <compendium display="false" />
     <supports>LepidoriaASI</supports>
         <description>
@@ -84,7 +83,7 @@
             <stat name="Wisdom" value="2" />
         </rules>
     </element>
-    <element name="Wings" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_WINGS">
+    <element name="Wings" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_WINGS">
 		<description>
 			<p>Your wings are made of magic and light, when you hit half-heath they break. You have to remake them at a long rest in the night for Moth and day for Butterfly. You have a flying speed equal to your walking speed, which can't be used to ascend. When you end one of your turns flying in the air, you descend by 5 feet.</p>
 		</description>
@@ -92,7 +91,7 @@
 			<description>Your wings are made of magic and light, when you hit half-heath they break. You have to remake them at a long rest in the night for Moth and day for Butterfly. You have a flying speed equal to your walking speed, which can't be used to ascend. When you end one of your turns flying in the air, you descend by 5 feet..</description>
 		</sheet>
 	</element>
-    <element name="Ride the Wind" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_RIDE_THE_WIND">
+    <element name="Ride the Wind" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_RIDE_THE_WIND">
 		<description>
 			<p>As an action, you can beat your wings and ascend up to 30 feet. You can't use this action again until you touch the ground. You can't use your wings if you are unable to move, and you can't Ride the Wind if you are wearing Medium or heavy armor. While flying, you cannot use any weapon that has the heavy property.</p>
 		</description>
@@ -100,7 +99,7 @@
 			<description>As an action, you can beat your wings and ascend up to 30 feet. You can't use this action again until you touch the ground. You can't use your wings if you are unable to move, and you can't Ride the Wind if you are wearing Medium or heavy armor. While flying, you cannot use any weapon that has the heavy property.</description>
 		</sheet>
 	</element>
-    <element name="Magical Attunement" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_MAGICAL_ATTUNEMENT">
+    <element name="Magical Attunement" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_MAGICAL_ATTUNEMENT">
 		<description>
 			<p>You know the prestidigitation cantrip. When you reach 3rd level, you can cast the detect magic spell as a ritual.</p>
 		</description>
@@ -115,10 +114,10 @@
     </element>
 
 <!-- Grants Lepidoria Subraces -->
-	<element name="Lepidoria Subrace" type="Grants" source="Aeon_Inc" id="ID_KARST_AEON_INC_GRANTS_Lepidoria_SUBRACE" />
+	<element name="Lepidoria Subrace" type="Grants" source="Aeon Inc" id="ID_KARST_AEON_INC_GRANTS_Lepidoria_SUBRACE" />
 
 	<!-- Moth: -->
-<element name="Moth" type="Sub Race" source="Aeon_Inc" id="ID_KARST_AEON_INC_SUBRACE_MOTH">
+<element name="Moth" type="Sub Race" source="Aeon Inc" id="ID_KARST_AEON_INC_SUBRACE_MOTH">
 		<supports>Lepidoria</supports>
 		<description>
 			<p>As a moth your colors and patterns are numerious like the stars in the sky.</p>
@@ -127,13 +126,13 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_NATURAL_CAMOUFLAGE" />
+			<grant type="Racial Trait" id="ID_KARST_Aeon_Inc_RACIAL_TRAIT_NATURAL_CAMOUFLAGE" />
 			<grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_DARKNESS_DWELLER" />
             <grant type="Grants" id="ID_KARST_AEON_INC_GRANTS_Lepidoria_SUBRACE" />
 		</rules>
 	</element>
 
-	<element name="Natural Camouflage" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_NATURAL_CAMOUFLAGE">
+	<element name="Natural Camouflage" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_NATURAL_CAMOUFLAGE">
 		<description>
 			<p>You have proficiency in the Stealth skill.</p>
 		</description>
@@ -145,7 +144,7 @@
 		</rules>
 	</element>
 
-	<element name="Darkness Dweller" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_DARKNESS_DWELLER">
+	<element name="Darkness Dweller" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_DARKNESS_DWELLER">
 		<description>
 			<p>Your natural biology grants you superior vision in darkness, though your eyes can get easily overwhelmed by light. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. This trait's range is reduced to 0 feet while you are in bright light.</p>
 		</description>
@@ -158,7 +157,7 @@
 	</element>
 
 <!-- Butterfly: -->
-	<element name="Butterfly" type="Sub Race" source="Aeon_Inc" id="ID_KARST_AEON_INC_SUBRACE_BUTTERFLY">
+	<element name="Butterfly" type="Sub Race" source="Aeon Inc" id="ID_KARST_AEON_INC_SUBRACE_BUTTERFLY">
 		<supports>Lepidoria</supports>
 		<description>
 			<p>As a butterfly your colors come in as many patterns and colors as the flowers under the sun.</p>
@@ -174,7 +173,7 @@
 		</rules>
 	</element>
 
-	<element name="Flash of Color" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_FLASH_OF_COLOR">
+	<element name="Flash of Color" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_FLASH_OF_COLOR">
 		<description>
 			<p>As an action, you can expand your wings to their fullest extent, causing fear or fascination in creatures nearby. Any creature within 15 feet of you that can see you must make a Wisdom saving throw or become Charmed or Frightened (you choose when you activate this ability) of you for 1 minute. You must use your action on subsequent turns to keep your wings fully extended, or the effect ends early. A creature can repeat this save at the end of each of their turns.</p>
             <p class="indent">The DC for this ability is equal to 8 + your Intelligence, Wisdom, or Charisma modifier + your Proficiency bonus.</p>
@@ -187,7 +186,7 @@
 		</sheet>
 	</element>
 
-<element name="Glamorous" type="Racial Trait" source="Aeon_Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_GLAMOROUS">
+<element name="Glamorous" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_GLAMOROUS">
 		<description>
 			<p>You gain proficiency in your choice of either Persuasion or Deception.</p>
 		</description>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.4">
+            <description>Languages spoken in Initium-Novum.</description>
+            <author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+		<file name="continentia-languages.xml" url="https://raw.githubusercontent.com/pkducklett/Continentia/main/continentia-languages.xml" />
+		</update>
+	</info>
+
+    <!-- standard/commonly spoken languages -->
+    
+
+    <!-- exotic/obscure languages -->
+	<element name="Automatron" type="Language" source="Aeon Inc" id="ID_KARST_AEON_INC_LANGUAGE_AUTOMATRON">
+		<supports>Initium Novum Exotic</supports>
+		<description>
+			<p>The original language of mechanical races. </p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Metempsychosis Machina/ Soul Mechs</set>
+		</setters>
+	</element>
+	<append id="ID_KARST_AEON_INC_LANGUAGE_AUTOMATRON">
+		<supports>Custom Race Language</supports>
+	</append>
+
+
+
+	<!-- secret/class specific languages -->
+	
+</elements>
