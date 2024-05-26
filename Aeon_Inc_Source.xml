@@ -5,7 +5,7 @@
 			<file name="Aeon_Inc_Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Aeon_Inc_Source.xml" />
 		</update>
 	</info>
-	<element name="Aeon_Inc" type="Source" source="Aeon_Inc" id="ID_KARST_AEON_INC_SOURCE_AEON_INC">
+	<element name="Aeon Inc" type="Source" source="Aeon Inc" id="ID_KARST_AEON_INC_SOURCE_AEON_INC">
 		<description>
 			<!-- The content for Continentia sources. -->
 		</description>
