@@ -7,7 +7,7 @@
 	</info>
 	<element name="Aeon Inc" type="Source" source="Aeon Inc" id="ID_KARST_AEON_INC_SOURCE_AEON_INC">
 		<description>
-			<!-- The content for Continentia sources. -->
+			<!-- The content for Initium-Novum sources. -->
 		</description>
 		<setters>
 			<set name="abbreviation">CONT</set>
