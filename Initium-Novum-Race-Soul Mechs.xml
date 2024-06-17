@@ -7,7 +7,7 @@
 			<file name="Initium-Novum-Race-Soul-Mechs.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Soul%20Mechs.xml" />
 		</update>
 	</info>
-    <element name="Metempsychosis Machina/ Soul Mechs" type="Race" source="Aeon Inc" id="ID_KARST_AEON INC_RACE_Metempsychosis Machina/ Soul Mechs">
+    <element name="Metempsychosis Machina/ Soul Mechs" type="Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACE_Metempsychosis Machina/ Soul Mechs">
     <description>
         <p>These machines were made to be given to those who are too sick or frail to continue living as they are. However, they need further testing in the field before they can be produced and given to the public. Therefore members of Aeon Industries are asked to give up their bodies of flesh and bone and become one of metal, gears, and wire for the greater good.</p>
         <h4>Appearance</h4>
@@ -32,12 +32,12 @@
         <select type="Racial Trait" name="Speed (Soul Mech)" supports="Soul Mech Speed" />
 		<select type="Racial Trait" name="Size (Soul Mech)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM" />
         <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-		<grant type="Language" id="ID_KARST_AEON_INC_LANGUAGE_AUTOMATRON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		<grant type="Language" id="ID_KARST_INITIUM_NOVUM_LANGUAGE_AUTOMATRON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
         <select type="Language" name="Customized Language" supports="Custom Race Language" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 		<select type="Language" name="Language, Automatron" supports="Standard||Exotic" />
-        <grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_Living_Construct" />
+        <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_Living_Construct" />
         <grant type="Racial Trait" id="ID_WOTC_AAG_RACIAL_TRAIT_AUTOGNOME_SENTRYS_REST"/>
-        <grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_HEALING_MACHINE" />
+        <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_HEALING_MACHINE" />
 		<select type="Sub Race" name="Soul Mechs Subrace" supports="Metempsychosis Machina/ Soul Mechs" optional="false"/>
 	</rules>
     </element>
@@ -51,7 +51,7 @@
 		</sheet>
 	</element>
 
-    <element name="Healing Machine" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_HEALING_MACHINE">
+    <element name="Healing Machine" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_HEALING_MACHINE">
 		<description>
 			<p>If the <i>mending</i> spell is cast on you, you can expend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point)</p> 
             <p class="indent">You were created to benefit from several spells that preserve life but that normally don’t affect Constructs: <i>cure wounds</i>, <i>healing word</i>, <i>mass cure wounds</i>, <i>mass healing word</i>, and <i>spare the dying</i>.</p>
@@ -61,7 +61,7 @@
 		</sheet>
 	</element>
 
-    <element name="Living Construct" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_Living_Construct">
+    <element name="Living Construct" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_Living_Construct">
 		<description>
 			<p>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.</p>
             <p class="indent">However, because of your previously human nature you find comfort in mimicking the acts of breathing and eating even though your body no longer needs those functions.</p>
@@ -71,7 +71,7 @@
 		</sheet>
 	</element>
 
-    <element name="Soul Mech Speed" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_PAST_LIFE_OTHER">
+    <element name="Soul Mech Speed" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_PAST_LIFE_OTHER">
 		<supports>Awakened Undead Past Life</supports>
 		<description>
 			<p>Before your tranfer, you were a member of another race and appear as an mechanical version of it. Your size, height, and movement speed are the same as a typical member of that race. You do not retain special movement speeds from this race (such as swimming or flying).</p>
@@ -80,13 +80,13 @@
 			<description>Before your transfer, you were another race and appear as an mechanical version of it.</description>
 		</sheet>
 		<rules>
-			<select type="Racial Trait" name="Size (Soul Mech)" supports="Past Life Size" default="ID_KARST_AEON_INC_SIZE_UNDEAD_MEDIUM" />
+			<select type="Racial Trait" name="Size (Soul Mech)" supports="Past Life Size" default="ID_KARST_INITIUM_NOVUM_SIZE_UNDEAD_MEDIUM" />
             <select type="Racial Trait" name="Speed (Soul Mech)" supports="Soul Mech Speed" />
 		</rules>
 	</element>
 	
     <!-- Speed -->
-    <element name="25 feet" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_SPEED_UNDEAD_TWENTYFIVE">
+    <element name="25 feet" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SPEED_UNDEAD_TWENTYFIVE">
         <compendium display="false" />
         <supports>Soul Mech Speed</supports>
         <description>
@@ -97,7 +97,7 @@
             <stat name="innate speed" value="25" bonus="base" />
         </rules>
     </element>
-    <element name="30 feet" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_SPEED_UNDEAD_THIRTY">
+    <element name="30 feet" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SPEED_UNDEAD_THIRTY">
         <compendium display="false" />
         <supports>Soul Mech Speed</supports>
         <description>
@@ -110,22 +110,22 @@
     </element>
 
     <!-- Grants Soul Mech Subraces -->
-	<element name="Soul Mechs Subrace" type="Grants" source="Aeon Inc" id="ID_KARST_AEON_INC_GRANTS_SOUL_MECHS_SUBRACE" />
+	<element name="Soul Mechs Subrace" type="Grants" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_GRANTS_SOUL_MECHS_SUBRACE" />
 
 	<!-- Hydra Prototype: -->
-<element name="Hydra Prototype" type="Sub Race" source="Aeon Inc" id="ID_KARST_AEON_INC_SUBRACE_HYDRA_PROTOTYPE">
+<element name="Hydra Prototype" type="Sub Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SUBRACE_HYDRA_PROTOTYPE">
 		<supports>Metempsychosis Machina/ Soul Mechs</supports>
 		<description>
 		 <p><strong><em>Ability Score Increase.</em></strong> Your Strength increases by 2 and your Dexterity increases by 1. Or your Dexterity increases by 2 and your Strength by 1.</p>
          </description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" name="Ability Score Increase" supports="ID_Aeon_Inc_RACE_TRAIT_SOUL_MECHS_STRENGTH|ID_Aeon_Inc_RACE_TRAIT_SOUL_MECHS_DEXTERITY" />
-            <grant type="Grants" id="ID_KARST_AEON_INC_GRANTS_SOUL_MECHS_SUBRACE" />
+			<select type="Racial Trait" name="Ability Score Increase" supports="ID_INITIUM_NOVUM_RACE_TRAIT_SOUL_MECHS_STRENGTH|ID_INITIUM_NOVUM_RACE_TRAIT_SOUL_MECHS_DEXTERITY" />
+            <grant type="Grants" id="ID_KARST_INITIUM_NOVUM_GRANTS_SOUL_MECHS_SUBRACE" />
 		</rules>
 	</element>
 
- <element name="Strength" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_SOUL_MECHS_STRENGTH">
+ <element name="Strength" type="Racial Trait" source="Initium Novum" id="ID_INITIUM_NOVUM_RACE_TRAIT_SOUL_MECHS_STRENGTH">
         <description>
             <p>Your Strength score increases by 2, and you Dexterity score increases by 1.</p>
 		</description>
@@ -136,7 +136,7 @@
 		</rules>
 	</element>
 	
-    <element name="Dexterity" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_SOUL_MECHS_DEXTERITY">
+    <element name="Dexterity" type="Racial Trait" source="Initium Novum" id="ID_INITIUM_NOVUM_RACE_TRAIT_SOUL_MECHS_DEXTERITY">
         <description>
             <p>Your Strength score increases by 1, and you Dexterity score increases by 2.</p>
 		</description>
@@ -148,7 +148,7 @@
 	</element>
 
 <!-- Siren Prototype: -->
-<element name="Siren Prototype" type="Sub Race" source="Aeon Inc" id="ID_KARST_AEON_INC_SUBRACE_SIREN_PROTOTYPE">
+<element name="Siren Prototype" type="Sub Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SUBRACE_SIREN_PROTOTYPE">
 		<supports>Metempsychosis Machina/ Soul Mechs</supports>
 		<description>
             <p><strong><em>Ability Score Increase.</em></strong> Your Intelligence, Wisdom, or Charisma increases by 2, and your Constitution increases by 1.</p>
@@ -159,11 +159,11 @@
         <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Soul Mech)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
        	<select type="Racial Trait" name="Ability Score Increase" supports="Soul MechASI" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
         <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Soul Mech)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-        <grant type="Grants" id="ID_KARST_AEON_INC_GRANTS_SOUL_MECHS_SUBRACE" />
+        <grant type="Grants" id="ID_KARST_INITIUM_NOVUM_GRANTS_SOUL_MECHS_SUBRACE" />
 		</rules>
 	</element>
 
- <element name="Charisma" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_SOUL_MECHS_CHA">
+ <element name="Charisma" type="Racial Trait" source="Initium Novum" id="ID_INITIUM_NOVUM_RACE_TRAIT_SOUL_MECHS_CHA">
     <compendium display="false" />
     <supports>Soul MechASI</supports>
         <description>
@@ -174,7 +174,7 @@
             <stat name="charisma" value="2" />
         </rules>
     </element>
-    <element name="Intelligence" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_SOUL_MECHS_INT">
+    <element name="Intelligence" type="Racial Trait" source="Initium Novum" id="ID_INITIUM_NOVUM_RACE_TRAIT_SOUL_MECHS_INT">
     <compendium display="false" />
     <supports>Soul MechASI</supports>
         <description>
@@ -185,7 +185,7 @@
             <stat name="Intelligence" value="2" />
         </rules>
     </element>
-    <element name="Wisdom" type="Racial Trait" source="Aeon Inc" id="ID_Aeon_Inc_RACE_TRAIT_SOUL_MECHS_WIS">
+    <element name="Wisdom" type="Racial Trait" source="Initium Novum" id="ID_INITIUM_NOVUM_RACE_TRAIT_SOUL_MECHS_WIS">
     <compendium display="false" />
     <supports>Soul MechASI</supports>
         <description>

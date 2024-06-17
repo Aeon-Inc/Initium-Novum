@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+ 	<element name="Animal Maiden" type="Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACE_ANIMAL_MAIDEN">
+    <description>
+        <p class="flavor">Legend says that the Animal Maidens came to be when a town of women was cursed by Yokai to have the forms of animals. However, scientists believe that the Animal Maidens are actually descendants of Yokai.</p>
+        <p>Animal Maidens live in close-knit groups of mixed species. Their clans are hidden deep in the mountain ranges and are rarely seen outside. Each family line has only one animal skin that is passed down from mother to daughter. As this sacred skin is the only way to change into your animal form. Children are raised by the clan as many mothers do not live long after passing on their skin. The most prideful of clan mothers will often leave the village to die so as to not burden the village. It is extremely rare to have male children, they are considered ‘Cursed Children’ by the village and will often be killed at birth. If they are not killed when they are little they often will not live past 20 years old as they carry all the animal instincts that come with being an Animal Maiden but they lack the capability to wear the skin of their mothers. The skin simply does not fit the male children. The records we have of the two males that have lived past their 20s managed to get around their animal instincts by leaving the village and gaining skills and training that allowed them to experience what they needed to survive without an animal skin.</p>
+        <p class="indent">Each animal has a different number population in the various villages, not from discrimination, but from the fact that some of the subraces were more commonly found in the past. Such as the mouse they have a very low population but are still found in every clan village. Unlike the lion, it is unknown if there are any left as none have been seen in years. While the Animal Skin can’t be destroyed there is no way to get a new one if the current one of the family line is lost, however, there is always folktales of ways to get a new one but none have tested to be true.</p>
+        <h4>Appearance</h4>
+        <p>Animal Maidens look like normal humans, except for the animal skin they carry around and refuse to part with. Some keep the skin hidden away while others wear it proudly.</p>
+        <h4>Animal Maiden Names</h4>
+        <p>The Animal Maidens have a first name and then a clan name that is passed down the family line.</p>
+        <p class="indent"><strong><em>Female:</em></strong> Hara, Rei, Tomiko, Masumi, Shizuka, Reiko, Ayumi, Yumi, Junko, Emi, Hitomi</p>
+        <p class="indent"><strong><em>Clan Names:</em></strong> Kense Clan, Azumi Clan, Mitsuo Clan, Iseri Clan, Oshita Clan, Niwa Clan</p>
+        <h4>Animal Maiden Traits</h4>
+        <p></p>
+        <p class="indent"><strong><em>Ability Score Increase.</em></strong> When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1.</p>
+        <p class="indent"><strong><em>Age.</em></strong> Animal Maidens reach adulthood in their late teens and live less than a century.</p>
+        <p class="indent"><strong><em>Alignment.</em></strong> Being fundamentally beings of nature Animal Maidens typically go towards neutral alignments.</p>
+        <p class="indent"><strong><em>Size.</em></strong> Animal Maidens look similar to humans and so vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</p>
+        <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+        <p class="indent"><strong><em>Trained by nature.</em></strong> You are proficient in the perception skill.</p>
+        <p class="indent"><strong><em>Shapechange.</em></strong> You possess an animal skin which allows you to change forms between your human and animal forms. As long as you are in possession of the animal skin you can change forms at will. What this does is determined by your subrace. You perfectly resemble the animal of the skin you have passed down to you.</p>
+        <p class="indent">This transformation follows the same rules as the druid's Wild Shape, except for the following:</p>
+        <ul>
+                <li>You can only transform into one animal using the animal skin, which depends on your subrace, and it can have swimming or flying speed.</li>
+                <li>There is no limit on the duration or uses of the transformation.</li>
+                <li>You are able to speak your known languages while in animal form.</li>
+                <li>Your creature type is Fey, rather than Beast, while in animal form.</li>
+                <li>You retain your Constitution score in your animal form, as you would your Intelligence, Wisdom, and Charisma.</li>
+                <li>Your hit points remain the same regardless of your form.</li>
+                <li>If reduced to 0 hit points in animal form you do not revert to humanoid form, you simply start dying.</li>
+            </ul>
+        <p class="indent"><strong><em>Mine.</em></strong> You have advantage on Athletics or Acrobatics checks to keep your animal skin if it is being forcefully removed from you while you are in your human form.</p>
+        <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.</p>
+    <h5>Roll D100 to Choose Subrace</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Subrace</td></tr>
+				</thead>
+				<tr><td>1-25</td><td>Crane</td></tr>
+				<tr><td>26-30</td><td>Mouse</td></tr>
+				<tr><td>31-50</td><td>Seal</td></tr>
+				<tr><td>51-65</td><td>Tiger</td></tr>
+				<tr><td>66-100</td><td>Wolf</td></tr>
+			</table>
+    </description>
+    <sheet display="false" />
+   
+   <setters>
+			<set name="names" type="male">Akama, Akimura, Haraka, Ida, Murai, Okada, Yoshi, Saito, Tomoto, Iirata, Mukai</set>
+			<set name="names" type="female">Hara, Rei, Tomiko, Masumi, Shizuka, Reiko, Ayumi, Yumi, Junko, Emi, Hitomi</set>
+			<set name="names" type="clan name">Kense Clan, Azumi Clan, Mitsuo Clan, Iseri Clan, Oshita Clan, Niwa Clan</set>
+			<set name="names-format">{{name}} “{{clan name}}”</set>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="2d4">110 lb.</set>
+		</setters>
+   
+    <rules>
+        <select type="Ability Score Improvement" name="Ability Score Improvement Option (Animal Maiden)" supports="Custom Ability Score Improvement Option" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language (Animal Maiden)" supports="Custom Race Language"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language (Animal Maiden)" supports="Standard||Exotic" />
+        <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_TRAINED_BY_NATURE" />
+        <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_MINE" />
+         <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_SHAPECHANGE" />
+        <select type="Sub Race" name="Animal Maiden Subrace" supports="Animal Maiden" optional="false"/>
+    </rules>
+    </element>
+    <element name="Trained by nature" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_TRAINED_BY_NATURE">
+		<description>
+			<p>You are proficient in the perception skill.</p>
+		</description>
+		<sheet>
+			<description> You are proficient in the perception skill.</description>
+		</sheet>
+	<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+    </element>
+
+     <element name="Mine" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_MINE">
+		<description>
+			<p>You have advantage on Athletics or Acrobatics checks to keep your animal skin if it is being forcefully removed from you while you are in your human form.</p>
+		</description>
+		<sheet>
+			<description> You have advantage on Athletics or Acrobatics checks to keep your animal skin if it is being forcefully removed from you while you are in your human form.</description>
+		</sheet>
+    </element>
+
+    <element name="Shapechange" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_SHAPECHANGE">
+		<description>
+			<p>You possess an animal skin which allows you to change forms between your human and animal forms. As long as you are in possession of the animal skin you can change forms at will. What this does is determined by your subrace. You perfectly resemble the animal of the skin you have passed down to you.</p>
+		</description>
+		<sheet>
+			<description> You possess an animal skin which allows you to change forms between your human and animal forms. As long as you are in possession of the animal skin you can change forms at will. What this does is determined by your subrace. You perfectly resemble the animal of the skin you have passed down to you.</description>
+		</sheet>
+    </element>
+
+    <!-- Grants Animal Maiden Subraces -->
+	<element name="Animal Maiden Subrace" type="Grants" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_GRANTS_Animal Maiden_SUBRACE" />
+
+	<!-- Crane: -->
+<element name="Crane" type="Sub Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SUBRACE_CRANE">
+		<supports>Animal Maiden</supports>
+		<description>
+			<p><b><i>Fear of Confinement</i></b> After spending 1 hour under the earth you must make a Wisdom DC 12 saving throw. On a success, you cope until your next long rest. On a failure, you lose your nerve and make all checks and attacks with disadvantage until you complete a long rest. This save must be repeated following every long rest if you remain below ground.</p>
+			<p class="indent"><b><i>Haughty OR Cocky</i></b> Crane are flamboyant and confident which may lead to arrogance and over-confidence.</p>
+			<p class="indent"><b><i>Dancer</i></b> You gain proficiency in the Acrobatics and Insight skills.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_FEAR_OF_CONFINEMENT" />
+			<grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_DANCER" />
+            <grant type="Grants" id="ID_KARST_INITIUM_NOVUM_GRANTS_Animal Maiden_SUBRACE" />
+		</rules>
+	</element>
+
+	<element name="Fear of Confinement" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_FEAR_OF_CONFINEMENT">
+		<description>
+			<p>After spending 1 hour under the earth you must make a Wisdom DC 12 saving throw. On a success, you cope until your next long rest. On a failure, you lose your nerve and make all checks and attacks with disadvantage until you complete a long rest. This save must be repeated following every long rest if you remain below ground.</p>
+		</description>
+		<sheet>
+			<description>After spending 1 hour under the earth you must make a Wisdom DC 12 saving throw. On a success, you cope until your next long rest. On a failure, you lose your nerve and make all checks and attacks with disadvantage until you complete a long rest. This save must be repeated following every long rest if you remain below ground.</description>
+		</sheet>
+	</element>
+
+	<element name="Dancer" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_DANCER">
+		<description>
+			<p>You gain proficiency in the Acrobatics and Insight skills.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in the Acrobatics and Insight skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+
+<!-- MOUSE: -->
+	<element name="Mouse" type="Sub Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SUBRACE_MOUSE">
+		<supports>Animal Maiden</supports>
+		<description>
+			<p><b><i>Annoying OR Weak</i></b> Mice can become annoying with their constant chatter and energy and many have small and weak builds.</p>
+			<p class="indent"><b><i>Cautious</i></b> Mice concern themselves with self-preservation.</p>
+			<p class="indent"><b><i>Perseverance</i></b> You gain proficiency in the Athletics and Survival skills.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_PERSEVERANCE" />
+            <grant type="Grants" id="ID_KARST_INITIUM_NOVUM_GRANTS_Animal Maiden_SUBRACE" />
+		</rules>
+	</element>
+
+	<element name="Perseverance" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_PERSEVERANCE">
+		<description>
+			<p>You gain proficiency in the Athletics and Survival skills.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in the Athletics and Survival skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<!-- Seal: -->
+	<element name="Seal" type="Sub Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SUBRACE_SEAL">
+		<supports>Animal Maiden</supports>
+		<description>
+			<p><b><i>Curious</i></b> Seals are naturally curious.</p>
+			<p class="indent"><b><i>Belligerent</i></b> It is customary and expected social behavior for a Seal to be pushy and forceful upon first meeting others.</p>
+			<p class="indent"><b><i>Trickster</i></b> You gain proficiency in the Deception and Persuasion skills.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_TRICKSTER" />
+            <grant type="Grants" id="ID_KARST_INITIUM_NOVUM_GRANTS_Animal Maiden_SUBRACE" />
+		</rules>
+	</element>
+
+	<element name="Trickster" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_TRICKSTER">
+		<description>
+			<p>You gain proficiency in the Deception and Persuasion skills.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in the Deception and Persuasion skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<!-- Tiger: -->
+	<element name="Tiger" type="Sub Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SUBRACE_TIGER">
+		<supports>Animal Maiden</supports>
+		<description>
+			<p><b><i>Insensitive OR Mean</i></b> Tigers rely on might to rule, not intelligence, and they care little for others. The Tigers have a savage streak.</p>
+			<p class="indent"><b><i>Self-Centered</i></b> Tigers typically spend a lot of time focusing inward and can be a little unobservant of the actions of others.</p>
+			<p class="indent"><b><i>Cat Reflexes</i></b> You gain proficiency in the Acrobatics and Stealth skills.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_CAT_REFLEXES" />
+            <grant type="Grants" id="ID_KARST_INITIUM_NOVUM_GRANTS_Animal Maiden_SUBRACE" />
+		</rules>
+	</element>
+
+	<element name="Cat Reflexes" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_CAT_REFLEXES">
+		<description>
+			<p>You gain proficiency in the Acrobatics and Stealth skills.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in the Acrobatics and Stealth skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<!-- Wolf: -->
+	<element name="Wolf" type="Sub Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_SUBRACE_WOLF">
+		<supports>Animal Maiden</supports>
+		<description>
+			<p><b><i>Honorable</i></b> Wolves pride themselves on their noble bearing and honorable behavior. Although they may come across as aloof initially, they are actually very accepting of other races and enjoy conversation and song.</p>
+			<p class="indent"><b><i>Loyal</i></b> Wolves are known for their fierce loyalty and unwavering conviction.</p>
+			<p class="indent"><b><i>Wild Instincts</i></b> You gain proficiency in the Athletics and Insight skills.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_WILD_INSTINCTS" />
+            <grant type="Grants" id="ID_KARST_INITIUM_NOVUM_GRANTS_Animal Maiden_SUBRACE" />
+		</rules>
+	</element>
+
+	<element name="Wild Instincts" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_WILD_INSTINCTS">
+		<description>
+			<p>You gain proficiency in the Athletics and Insight skills.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in the Athletics and Insight skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+</elements>

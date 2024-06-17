@@ -7,7 +7,7 @@
 			<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Axolotl.xml" />
 		</update>
 	</info>
-<element name="Axolotl" type="Race" source="Aeon Inc" id="ID_Karst_Aeon_Inc_Race_Axolotl">
+<element name="Axolotl" type="Race" source="Initium Novum" id="ID_Karst_INITIUM_NOVUM_Race_Axolotl">
     <description>
         <p>Axolotl typically dwell in or close to large sources of fresh water, such as lakes or rivers, where they form intricate communities with not only their own kind, but with many other beings. Originating from the Feywild themselves, Axolotl are fond of other fey creatures, and will often form meaningful relationships with Elves, Firbolgs, and Gnomes among other creatures, as well as many forest-dwelling animals such birds, deer, and small mammals.</p>
         <p class="indent">Expect to come across Axolotl communities around large lakes, rivers, and waterfalls in temperate climates, or even on the coast, although Axolotl are cautious of the ocean's harsh currents, salty water, and many predatory monsters.</p>
@@ -55,12 +55,12 @@
         <grant type="Size" id="ID_SIZE_SMALL" />
         <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 		<grant type="Language" id="ID_LANGUAGE_SYLVAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-        <grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_AMPHIBIOUS" />
-        <grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_REGENERATION" />
-        <grant type="Racial Trait" id="ID_KARST_AEON_INC_RACIAL_TRAIT_WATER_DEPENDENCY" />
+        <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_AMPHIBIOUS" />
+        <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_REGENERATION" />
+        <grant type="Racial Trait" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_WATER_DEPENDENCY" />
     </rules>
 </element>
-<element name="Amphibious" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_AMPHIBIOUS">
+<element name="Amphibious" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_AMPHIBIOUS">
 		<description>
 			<p>You can breathe air and water. Additionally, when underwater, you can see in dim light within 60 feet of you as if it was bright light, and in darkness as if it was dim light; however, you cannot perceive colour when in dim light or darkness underwater, so everything appears in various shades of grey.</p>
 		</description>
@@ -68,7 +68,7 @@
 			<description>You can breathe air and water. When underwater you can see in dim light within 60 feet of you as if it was bright light, and in darkness as if it was dim light; however, you cannot perceive colour when in dim light or darkness underwater, so everything appears in various shades of grey.</description>
 		</sheet>
 	</element>
-<element name="Regeneration" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_REGENERATION">
+<element name="Regeneration" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_REGENERATION">
 		<description>
 			<p>If you are below half of your maximum hit points (rounded down), you can use a bonus action to regain hit points equal to your total level plus your proficiency bonus. Once you use this feature, you cannot use it again until you finish a long rest.</p>
 		</description>
@@ -76,7 +76,7 @@
 			<description>If you are below half of your maximum hit points (rounded down), you can use a bonus action to regain hit points equal to your total level plus your proficiency bonus. Once you use this feature, you cannot use it again until you finish a long rest.</description>
 		</sheet>
 	</element>
-<element name="Water Dependency" type="Racial Trait" source="Aeon Inc" id="ID_KARST_AEON_INC_RACIAL_TRAIT_WATER_DEPENDENCY">
+<element name="Water Dependency" type="Racial Trait" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACIAL_TRAIT_WATER_DEPENDENCY">
 		<description>
 			<p>While maturing, Axolotl live almost exclusively underwater, and therefore a species-wide dependency on water has emerged.</p>
             <p class="indent">You must regularly submerge yourself in water for at least 30 minutes every 8 hours, and if you fail to do so, you become dehydrated. While dehydrated you cannot use your Regeneration feature, and suffer from disadvantage on any saving throws made to resist disease or the poisoned condition.</p>

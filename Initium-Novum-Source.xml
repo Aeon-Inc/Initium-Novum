@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="Aeon_Inc_Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Aeon_Inc_Source.xml" />
+		</update>
+	</info>
+	<element name="Initium Novum" type="Source" source="Aeon Inc" id="ID_KARST_SOURCE_INITIUM_NOVUM">
+		<description>
+			<!-- The content for Initium-Novum sources. -->
+		</description>
+		<setters>
+			<set name="abbreviation">INN</set>
+			<set name="url">https://github.com/Aeon-Inc/Initium-Novum</set>
+			<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>

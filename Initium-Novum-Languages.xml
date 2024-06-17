@@ -13,7 +13,7 @@
     
 
     <!-- exotic/obscure languages -->
-	<element name="Automatron" type="Language" source="Aeon Inc" id="ID_KARST_AEON_INC_LANGUAGE_AUTOMATRON">
+	<element name="Automatron" type="Language" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_LANGUAGE_AUTOMATRON">
 		<supports>Initium Novum Exotic</supports>
 		<description>
 			<p>The original language of mechanical races. </p>
@@ -23,7 +23,7 @@
 			<set name="speakers">Metempsychosis Machina/ Soul Mechs</set>
 		</setters>
 	</element>
-	<append id="ID_KARST_AEON_INC_LANGUAGE_AUTOMATRON">
+	<append id="ID_KARST_INITIUM_NOVUM_LANGUAGE_AUTOMATRON">
 		<supports>Custom Race Language</supports>
 	</append>
 
