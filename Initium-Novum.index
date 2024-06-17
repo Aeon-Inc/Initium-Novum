@@ -9,7 +9,7 @@
 		</update>
 	</info>
  <files>
-   	<file name="Aeon_Inc_Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Aeon_Inc_Source.xml" />
+   	<file name="Initium-Novum-Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Source.xml" />
 <!-- Necessities -->
 	<file name="Initium-Novum-Languages.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Languages.xml" />
 <!-- Races -->
