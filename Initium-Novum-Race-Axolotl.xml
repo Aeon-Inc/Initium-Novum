@@ -1,4 +1,4 @@
-<element>
+<elements>
   <info>
 		<name>Axolotl</name>
 		<update version="0.0.1">
@@ -89,4 +89,4 @@
             </description>
 		</sheet>
 	</element>
-</element>
+</elements>

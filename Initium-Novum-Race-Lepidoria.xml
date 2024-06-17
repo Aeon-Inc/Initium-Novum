@@ -1,4 +1,4 @@
-<element>
+<elements>
     <info>
 		<name>Lepidoria</name>
 		 <update version="0.0.5"> 
@@ -199,4 +199,4 @@
 			<select type="Proficiency" name="Customized Skill Proficiency, Glamorous" supports="Skill" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 		</rules>
 	</element>
-</element>
+</elements>
