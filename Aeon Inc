@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Aeon Inc</name>
+		<name>Aeon-Inc</name>
 		<description>Aeon Inc Index files.</description>
 		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
 		<update version="0.2.5">
-			
+			<file name="Initium-Novum.index"
 		</update>
 	</info>
 	<files>
