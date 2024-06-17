@@ -5,7 +5,7 @@
 		<description>Aeon Inc Index files.</description>
 		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
 		<update version="0.2.5">
-			<file name="Aeon-Inc.index" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum.index" />
+			<file name="Aeon-Inc.index" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Aeon-Inc.index" />
 		</update>
 	</info>
 	<files>
