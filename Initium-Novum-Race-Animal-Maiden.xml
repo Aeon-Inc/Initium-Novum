@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
- 	<element name="Animal Maiden" type="Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACE_ANIMAL_MAIDEN">
+ 	<info>
+		<name>Animal Maiden</name>
+		<update version="0.0.1">
+	  	<description>The Animal Maiden race for Initium-Novum.</description>
+		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+			<file name="Initium-Novum-Race-Animal-Maiden.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Axolotl.xml" />
+		</update>
+	</info>
+	<element name="Animal Maiden" type="Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACE_ANIMAL_MAIDEN">
     <description>
         <p class="flavor">Legend says that the Animal Maidens came to be when a town of women was cursed by Yokai to have the forms of animals. However, scientists believe that the Animal Maidens are actually descendants of Yokai.</p>
         <p>Animal Maidens live in close-knit groups of mixed species. Their clans are hidden deep in the mountain ranges and are rarely seen outside. Each family line has only one animal skin that is passed down from mother to daughter. As this sacred skin is the only way to change into your animal form. Children are raised by the clan as many mothers do not live long after passing on their skin. The most prideful of clan mothers will often leave the village to die so as to not burden the village. It is extremely rare to have male children, they are considered ‘Cursed Children’ by the village and will often be killed at birth. If they are not killed when they are little they often will not live past 20 years old as they carry all the animal instincts that come with being an Animal Maiden but they lack the capability to wear the skin of their mothers. The skin simply does not fit the male children. The records we have of the two males that have lived past their 20s managed to get around their animal instincts by leaving the village and gaining skills and training that allowed them to experience what they needed to survive without an animal skin.</p>
