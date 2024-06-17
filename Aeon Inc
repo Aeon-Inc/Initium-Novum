@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Aeon Inc</name>
+		<description>Aeon Inc Index files.</description>
+		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+		<update version="0.2.5">
+			<file name="core.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Initium-Novum.index" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum.index" />
+	</files>
+</index>
