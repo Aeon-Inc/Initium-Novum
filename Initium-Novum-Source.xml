@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="Aeon_Inc_Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Source.xml" />
+			<file name="Initium-Novum-Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Source.xml" />
 		</update>
 	</info>
 	<element name="Initium Novum" type="Source" source="Aeon Inc" id="ID_KARST_SOURCE_INITIUM_NOVUM">
