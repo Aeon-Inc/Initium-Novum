@@ -1,18 +1,21 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
+		<name>Initium Novum</name>
 		<update version="0.0.1">
-			<file name="Initium-Novum-Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Source.xml" />
+			<file name="Initium-Novum-Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Source.xml" />
 		</update>
 	</info>
-	<element name="Initium Novum" type="Source" source="Aeon Inc" id="ID_KARST_SOURCE_INITIUM_NOVUM">
+	<element name="Initium Novum" type="Source" source="Core" id="ID_KARST_SOURCE_INITIUM_NOVUM">
 		<description>
 			<!-- The content for Initium-Novum sources. -->
 		</description>
 		<setters>
 			<set name="abbreviation">INN</set>
 			<set name="url">https://github.com/Aeon-Inc/Initium-Novum</set>
-			<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+			<set name="url">https://github.com/Aeon-Inc/Initium-Novum</set>
+			<set name="author" abbreviation="Ka" url="https://github.com/Aeon-Inc">Karst, Aeon Inc</set>
+			<set name="release">20240101</set>
 			<set name="homebrew">true</set>
 		</setters>
 	</element>
