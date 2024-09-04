@@ -4,7 +4,7 @@
 		 <update version="0.0.5"> 
 	    	<description>The Lepidoria Race from Initium-Novum.</description>
 		    <author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
-			<file name="Initium-Novum-Race-Lepidoria.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Lepidoria.xml" />
+			<file name="Initium-Novum-Race-Lepidoria.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Races/Initium-Novum-Race-Lepidoria.xml" />
 		</update>
 	</info>
 	<element name="Lepidoria" type="Race" source="Initium Novum" id="ID_Karst_INITIUM_NOVUM_Race_Lepidoria">
