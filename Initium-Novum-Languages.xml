@@ -5,7 +5,7 @@
 		<update version="0.0.4">
             <description>Languages spoken in Initium-Novum.</description>
             <author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
-		<file name="Initium-Novum-Languages.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Languages.xml" />
+		<file name="Initium-Novum-Languages.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Languages.xml" />
 		</update>
 	</info>
 
