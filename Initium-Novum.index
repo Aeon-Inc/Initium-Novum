@@ -13,9 +13,9 @@
 <!-- Necessities -->
 	<file name = "Initium-Novum-Languages.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Languages.xml" />
 <!-- Races -->
-	<file name = "Initium-Novum-Race-Animal-Maiden.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Race/Initium-Novum-Race-Animal-Maiden.xml" />
-	<file name = "Initium-Novum-Race-Axolotl.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Race/Initium-Novum-Race-Axolotl.xml" />
-	<file name = "Initium-Novum-Race-Lepidoria.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Race/Initium-Novum-Race-Lepidoria.xml" />
-	<file name = "Initium-Novum-Race-Soul-Mechs.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Race/Initium-Novum-Race-Soul-Mechs.xml" />
+	<file name = "Initium-Novum-Race-Animal-Maiden.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Races/Initium-Novum-Race-Animal-Maiden.xml" />
+	<file name = "Initium-Novum-Race-Axolotl.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Races/Initium-Novum-Race-Axolotl.xml" />
+	<file name = "Initium-Novum-Race-Lepidoria.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Races/Initium-Novum-Race-Lepidoria.xml" />
+	<file name = "Initium-Novum-Race-Soul-Mechs.xml" url = "https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Races/Initium-Novum-Race-Soul-Mechs.xml" />
 </files>
 </index>
