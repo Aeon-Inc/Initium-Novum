@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
-		<name>Initium Novum</name>
+		<name>Initium Novum Source</name>
 		<update version="0.0.1">
 			<file name="Initium-Novum-Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Source.xml" />
 		</update>
@@ -12,7 +12,6 @@
 		</description>
 		<setters>
 			<set name="abbreviation">INN</set>
-			<set name="url">https://github.com/Aeon-Inc/Initium-Novum</set>
 			<set name="url">https://github.com/Aeon-Inc/Initium-Novum</set>
 			<set name="author" abbreviation="Ka" url="https://github.com/Aeon-Inc">Karst, Aeon Inc</set>
 			<set name="release">20240101</set>
