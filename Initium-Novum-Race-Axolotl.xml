@@ -4,7 +4,7 @@
 		<update version="0.0.1">
 	  	<description>The Axolotl race for Initium-Novum.</description>
 		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
-			<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Races/Initium-Novum-Race-Axolotl.xml" />
+			<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Axolotl.xml" />
 		</update>
 	</info>
 <element name="Axolotl" type="Race" source="Initium Novum" id="ID_Karst_INITIUM_NOVUM_Race_Axolotl">
