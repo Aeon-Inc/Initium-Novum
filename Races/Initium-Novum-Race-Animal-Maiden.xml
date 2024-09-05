@@ -5,7 +5,7 @@
 		<update version="0.0.1">
 	  	<description>The Animal Maiden race for Initium-Novum.</description>
 		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
-			<file name="Initium-Novum-Race-Animal-Maiden.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Races/Initium-Novum-Race-Animal-Maiden.xml" />
+			<file name="Initium-Novum-Race-Animal-Maiden.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Animal-Maiden.xml" />
 		</update>
 	</info>
 	<element name="Animal Maiden" type="Race" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_RACE_ANIMAL_MAIDEN">
