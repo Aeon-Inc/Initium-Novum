@@ -17,5 +17,7 @@
 	<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Axolotl.xml" />
 	<file name="Initium-Novum-Race-Lepidoria.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Lepidoria.xml" />
 	<file name="Initium-Novum-Race-Soul-Mechs.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Soul-Mechs.xml" />
+<!-- Subclasses -->
+	<file name="Initium-Novum-Circle-of-the-Wild.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Circle-of-the-Wild.xml" />
 </files>
 </index>
