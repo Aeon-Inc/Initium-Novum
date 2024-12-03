@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<info>
+		<name>Crystal Wizard</name>
+		<update version="0.0.1">
+	  	<description>The Crystal Arcane Tradition Subclass for Wizard for Initium-Novum.</description>
+		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+			<file name="Initium-Novum-Circle-of-the-Wild.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Circle-of-the-Wild.xml" />
+		</update>
+	</info>
+<element name="Crystal Wizard" type="Archetype" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_WIZARD_CRYSTALWIZARD">
+    <supports>Arcane Tradition</supports>
+    <description>
+        <p>Your time in the crystal caves have changed you, causing you to become proficient in using the magic of cryistals.</p>
+        <!-- <p class="indent"></p> -->
+        <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_GROWTH" />
+        <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTALLINE_DEFENSE" />
+        <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_ENHANCED_DEFENSE" />
+        <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_KNOWLEDGE" />
+        <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_HEART" />
+    </description>
+    <sheet display="false">
+        <description></description>
+    </sheet>
+    <rules>
+        <grant type="Archetype Feature" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_GROWTH" level="2" />
+        <grant type="Archetype Feature" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTALLINE_DEFENSE" level="2" />
+        <grant type="Archetype Feature" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_ENHANCED_DEFENSE" level="6" />
+        <grant type="Archetype Feature" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_KNOWLEDGE" level="10" />
+        <grant type="Archetype Feature" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_HEART" level="14" />
+    </rules>
+</element>
+
+
+    <element name="Crystal Growth" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_GROWTH">
+        <description>
+            <p>Starting at 2nd lv you gain the ability to put down crystal clusters that take up a 5 ft space in a range of 30 ft from you.</p>
+            <p class="indent">This increases by 30 ft at 6th, 10th, 14th, and 16th lv. You can only put down a number of clusters equal to your proficiency modifier.</p> 
+        </description>
+          <sheet>
+    <description>5x5 crystal clusters can be placed within 30ft of you equal to your proficiency modifier. Range increases by 30ft at 6th, 10th, 14th, and 16th lv.</p>
+    </description>
+        </sheet>
+    </element>
+
+  <element name="Crystalline Defense" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTALLINE_DEFENSE">
+        <description>
+            <p>At 2nd lv you gain the Mage Armor Spell and can cast it without using a spell a number of times equal to your proficiency modifier.</p>
+        </description>
+          <sheet>
+    <description>You gain the Mage Armor Spell and can cast it without using a spell a number of times equal to your proficiency modifier.</p>
+    </description>
+        </sheet>
+    </element>
+
+    <element name="Enhanced Defence" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_ENHANCED_DEFENSE">
+        <description>
+            <p>When you have the Mage Armor Spell on you become immune to the effects of extreme heat or cold, and gain resistance to cold and fire damage.</p>
+            <p class="indent">In addition, you gain proficiency in Constitution saving throws.</p> 
+        </description>
+          <sheet>
+    <description>When you have the Mage Armor Spell on you become immune to the effects of extreme heat or cold, and gain resistance to cold and fire damage.</p>
+    </description>
+        </sheet>
+    </element>
+
+     <element name="Crystal Knowledge" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_KNOWLEDGE">
+        <description>
+            <p>You gain proficiency in Arcana. You have advantage on all checks that involve crystals and gems. If you are already proficient, you double your proficiency bonus in checks with it.</p>
+            <p class="indent">When within 5ft of a crystal cluster, you can use a bonus action to give yourself advantage on Intelligence (Investigation) and Wisdom (Perception) checks until the end of your turn.</p> 
+        </description>
+          <sheet>
+    <description>You gain Arcana proficiency, double it if already proficient. Advantage on all checks involving crystals and gyms.</p>
+    <p class="indent">When within 5ft of a crystal cluster, bonus action to give yourself advantage on Investigation and Perception checks until the end of your turn.</p>
+    </description>
+        </sheet>
+    </element>
+
+    <element name="Crystal Heart" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_HEART">
+        <description>
+            <p>The magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year. You no longer need to eat or drink.</p>
+            <p class="indent">Whenever you use a crystal ability to cause additional damage or have the enemy make a saving throw, you can choose to cause the maximum damage or force them to reroll the die. You can do this once per long rest.</p> 
+        </description>
+          <sheet>
+    <description>For every 10 years that pass, your body ages only 1 year. You no longer need to eat or drink.</p>
+    <p class="indent">When you use a crystal ability to cause additional damage or have the enemy make a saving throw, you can cause max damage or a reroll of the save. Once per long rest.</p>
+    </description>
+        </sheet>
+    </element>
+
+</elements>
