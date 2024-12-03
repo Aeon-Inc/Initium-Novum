@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Animal Maiden</name>
+		<update version="0.0.1">
+	  	<description>The Circle of the Wild Subclass for Druid for Initium-Novum.</description>
+		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
+			<file name="Initium-Novum-Circle-of-the-Wild.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Circle-of-the-Wild.xml" />
+		</update>
+	</info>
+    <element name="Circle of the Wild" type="Archetype" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_DRUID_CIRCLEOFTHEWILD">
+         <supports>Druid Circle</supports>
+        <description>
+            <p><b>Warning!: This subclass allows the pc to change form at will without the use of wildshape charges. They are able to stay in animal form for as long as they want and change as often as they want. All spell slots and wildshape charges are used to fuel the class' abilities.</b></p>
+            <p class="indent">Druids of the Circle of the Wild are natural shapeshifters and stewards of the animal kingdom. Members of their order gather where wildlife would often be found, dense forests, deep oceans, even arctic tundras or scorching deserts. These druids believe in the natural order of the world around them and work hard to preserve it.</p>
+            <p class="indent">Circle of the Wild druids are often found in a different form than their natural shape. They prefer to blend in with the wildlife around them and study nature without disturbing it. Though, when need be, Circle of the Wild druids can call upon the power of many different beasts and become fierce warriors.</p>
+                <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_NATURAL_SHAPESHIFTER" />
+			    <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_EMPOWERED_FORMS" />
+			    <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_Spell-Charged Forms" />
+			    <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_MONSTROUS_WILD_SHAPE" />
+			    <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_MASTER_OF_THE_WILD" />
+        </description>
+         <sheet display="false" />
+        <rules>
+			    <grant type="Archetype Feature" name="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_NATURAL_SHAPESHIFTER" level="2" />
+			    <grant type="Archetype Feature" name="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_EMPOWERED_FORMS" level="2" />
+			    <grant type="Archetype Feature" name="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_Spell-Charged Forms" level="6" />
+			    <grant type="Archetype Feature" name="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_MONSTROUS_WILD_SHAPE" level="10" />
+			    <grant type="Archetype Feature" name="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_MASTER_OF_THE_WILD" level="14" />
+		</rules>
+    </element>
+
+    <element name="Natural Shapeshifter" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_NATURAL_SHAPESHIFTER">
+    <description>
+        <p>When you choose the Circle of the Wild at 2nd level, you gain the ability to shift your form into any beast with a CR up to 1/2 as a bonus action. 
+        Starting at 3rd level, you can choose any form with a CR as high as your druid level divided by 3 (rounded down). You can also spend a bonus action to return to your normal form at any time. When you are transformed, the following rules apply:</p>
+     <ul>
+        <li>Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. 
+        You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature’s bonus instead of yours. 
+        If the creature has any legendary or lair actions, you can’t use them.</li>
+        <li>You can’t cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. 
+        Transforming doesn’t break your concentration on a spell you’ve already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you’ve already cast.</li>
+        <li>You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can’t use any of your special senses, such as darkvision, unless your new form also has that sense.</li>
+        <li>You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature’s shape and size. 
+        Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.</li>
+        <li>You must be level 8 or above to assume a form with a fly speed.</li>
+        <li>Your Health pool remains the same as your druid form, unlike with normal wild shape.</li>
+      </ul>
+    </description>
+         <sheet>
+    <description>You can use your Wild Shape to transform into a beast with a CR as high as {{circle forms:cr}}.</description>
+        </sheet>
+       	<rules>
+			<stat name="circle forms:cr" value="1" bonus="base" />
+			<stat name="circle forms:cr" value="2" level="6" bonus="base" />
+			<stat name="circle forms:cr" value="3" level="9" bonus="base" />
+			<stat name="circle forms:cr" value="4" level="12" bonus="base" />
+			<stat name="circle forms:cr" value="5" level="15" bonus="base" />
+			<stat name="circle forms:cr" value="6" level="18" bonus="base" />
+		</rules>
+    </element>
+
+    <element name="Empowered Forms" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_EMPOWERED_FORMS">
+        <description>
+            <p>Starting at level 2, whenever you use your Natural Shapeshifter ability, you can also choose to expend a use of your Wild Shape. If you do, you gain temporary hit points equal to half of your new form's HP (rounded down). (I.E. You gain 17 temporary hp if you are shifting into a Brown Bear form). You lose these temporary hit points if you shift out of this form.</p>
+            <p class="indent">The druid has improved control over the bestial forms which allows them to keep their Dexterity modifier instead of their Charisma modifier, as well as use of finesse while in beast form. Also, they have access to a greater form of wild shape which allows them to stay in their forms indefinitely, only ending the form if it is reduced to 0 hit points. When the form ends, they can not go back into a form unless they succeeds on a DC 15 Constitution check. They can freely enter a form again after a long rest.</p> 
+            <p class="indent">While you are transformed, you can use a bonus action to expend one spell slot to regain 1d8 hp per level of the spell slot expended.</p>
+        </description>
+          <sheet>
+    <description>When using your Natural Shapeshifter ability, you can also choose to expend a use of your Wild Shape. If you do, you gain temporary hit points equal to half of your new form's HP (rounded down). (I.E. You gain 17 temporary hp if you are shifting into a Brown Bear form). You lose these temporary hit points if you shift out of this form.
+            <p class="indent">The druid's bestial forms allow them to keep their Dexterity modifier instead of their Charisma modifier, as well as use of finesse while in beast form. They can also stay in their forms indefinitely, only ending the form if it is reduced to 0 hit points. After form is lost, you have to succeed on a DC 15 Constitution check to enter it again until you take a long rest.</p> 
+            <p class="indent">While you are transformed, you can use a bonus action to expend one spell slot to regain 1d8 hp per level of the spell slot expended.</p>
+    </description>
+        </sheet>
+    </element>
+
+    <element name="Spell-Charged Forms" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_Spell-Charged Forms">
+        <description>
+             <p>Beginning at level 6, you gain the ability to increase the power of your beast forms by expending spell slots. When you choose to empower your forms by expending a use of Wild Shape, you can also choose to expend any number of spell slots to gain the benefits listed below. Each spell slot expended can grant only one benefit from the list, and the same benefit can not be gained twice.</p>
+        <ul>
+            <li><b>Natural Weapons:</b> Each attack you make in your beast form that hits does an extra 2 damage per level of the spell slot used to gain this benefit.</li>
+            <li><b>Taunt:</b> You can use an action to taunt a creature. If that creature makes an attack that doesn't include you as a target, that creature suffers disadvantage on the attack. The creature is affected by this ability until it makes a number of attacks equal to the spell level of the slot expended to gain this benefit.</li>
+            <li><b>Natural Armor:</b> You gain a bonus to your AC equal to the level of the spell slot used to gain this benefit.</li>
+            <li><b>Expertise:</b> You gain a bonus to any ability your form is trained in equal to your proficiency modifier.</li>
+            <li><b>Quick Reflexes:</b> Your forms speed increases by 5 feet per level of the spell slot used to gain this benefit.</li>
+            <li><b>Magical Weapons:</b> Your attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</li>
+        </ul>
+        </description>
+         <sheet>
+    <description>Beginning at level 6, you gain the ability to increase the power of your beast forms by expending spell slots. When you choose to empower your forms by expending a use of Wild Shape, you can also choose to expend any number of spell slots to gain the benefits listed below. Each spell slot expended can grant only one benefit from the list, and the same benefit can not be gained twice.
+        
+            •Natural Weapons: Each attack in beast form does an extra 2 damage per level of the spell slot used.
+            •Taunt: You can use an action to taunt a creature. If that creature makes an attack that doesn't include you as a target, that creature suffers disadvantage on the attack. The creature is affected by this ability until it makes a number of attacks equal to the spell level of the slot expended.
+            •Natural Armor: Bonus to your AC equal to the level of the spell slot used.
+            •Expertise: Bonus to any ability your form is trained in equal to your proficiency modifier.
+            •Quick Reflexes: Your forms speed increases by 5 feet per level of the spell slot used.
+            •Magical Weapons: Your attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+        
+        </description>
+        </sheet>
+    </element>
+
+    <element name="Monstrous Wild Shape" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_MONSTROUS_WILD_SHAPE">
+		<description>
+			<p>By 10th level, you can expend two charges of your Wild Shape class feature to transform into a monstrosity of appropriate challenge rating. You have learned to fluently communicate with any beast around you. You can speak with creatures as if you are always affected by the Speak with Animals spell.</p>
+		</description>
+		<sheet>
+			<description>You can expend two charges of your Wild Shape class feature to transform into a monstrosity of appropriate challenge rating. You have learned to fluently communicate with any beast around you. You can speak with creatures as if you are always affected by the Speak with Animals spell.</description>
+		</sheet>
+	</element>
+
+    <element name="Master of the Wild" type="Archetype Feature" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CIRCLE_WILD_MASTER_OF_THE_WILD">
+		<description>
+			<p>By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will.</p>
+            <p class="indent">While you are transformed by Wild shape, you can use an action to breathe out a destructive blast in a 60-foot cone. Each creature in the cone must make a Dexterity saving throw. A creature takes 9d8 fire, cold, lightning, acid or radiant (you choose the damage's nature when you use this feature) damage on a failed save, or half as much damage on a successful one. Once you use this feature, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You can cast the alter self spell at will.
+            <p class="indent">While you are transformed by Wild shape, you can use an action to breathe out a destructive blast in a 60-foot cone. Each creature in the cone must make a Dexterity saving throw. A creature takes 9d8 fire, cold, lightning, acid or radiant (you choose the damage's nature when you use this feature) damage on a failed save, or half as much damage on a successful one. Once you use this feature, you can’t use it again until you finish a long rest.</p>
+            </description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Druid" />
+		</rules>
+	</element>
+</elements>
