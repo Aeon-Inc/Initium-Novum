@@ -5,20 +5,20 @@
 		<description>The content for Initium-Novum sources.</description>
 		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
 		<update version="0.0.1">
-			<file name="Initium-Novum.index" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum.index" />
+			<file name="Initium-Novum.index" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum.index" />
 		</update>
 	</info>
  	<files>
-   		<file name="Initium-Novum-Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Source.xml" />
+   		<file name="Initium-Novum-Source.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Source.xml" />
 <!-- Necessities -->
-		<file name="Initium-Novum-Languages.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Languages.xml" />
+		<file name="Initium-Novum-Languages.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Languages.xml" />
 <!-- Races -->
-		<file name="Initium-Novum-Race-Animal-Maiden.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Animal-Maiden.xml" />
-		<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Axolotl.xml" />
-		<file name="Initium-Novum-Race-Lepidoria.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Lepidoria.xml" />
-		<file name="Initium-Novum-Race-Soul-Mechs.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Race-Soul-Mechs.xml" />
+		<file name="Initium-Novum-Race-Animal-Maiden.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Animal-Maiden.xml" />
+		<file name="Initium-Novum-Race-Axolotl.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Axolotl.xml" />
+		<file name="Initium-Novum-Race-Lepidoria.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Lepidoria.xml" />
+		<file name="Initium-Novum-Race-Soul-Mechs.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Race-Soul-Mechs.xml" />
 <!-- Subclasses -->
-		<file name="Initium-Novum-Circle-of-the-Wild.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Initium-Novum-Circle-of-the-Wild.xml" />
-		<file name="Crystal-Wizard.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Crystal-Wizard.xml" />
+		<file name="Initium-Novum-Circle-of-the-Wild.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Initium-Novum-Circle-of-the-Wild.xml" />
+		<file name="Crystal-Wizard.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Crystal-Wizard.xml" />
 	</files>
 </index>
