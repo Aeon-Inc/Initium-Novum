@@ -5,7 +5,7 @@
 		<update version="0.0.1">
 	  	<description>The Crystal Arcane Tradition Subclass for Wizard for Initium-Novum.</description>
 		<author url="https://github.com/Aeon-Inc/Initium-Novum">Karst</author>
-			<file name="Crystal-Wizard.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/master/Crystal-Wizard.xml" />
+			<file name="Crystal-Wizard.xml" url="https://raw.githubusercontent.com/Aeon-Inc/Initium-Novum/main/Crystal-Wizard.xml" />
 		</update>
 	</info>
 <element name="Crystal Wizard" type="Archetype" source="Initium Novum" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_WIZARD_CRYSTALWIZARD">
