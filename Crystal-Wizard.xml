@@ -19,9 +19,9 @@
         <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_KNOWLEDGE" />
         <div element="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_HEART" />
     </description>
-    <sheet display="false">
+<!--     <sheet display="false">
         <description></description>
-    </sheet>
+    </sheet> -->
     <rules>
         <grant type="Archetype Feature" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTAL_GROWTH" level="2" />
         <grant type="Archetype Feature" id="ID_KARST_INITIUM_NOVUM_ARCHETYPE_FEATURE_CRYSTAL_WIZARD_CRYSTALLINE_DEFENSE" level="2" />
